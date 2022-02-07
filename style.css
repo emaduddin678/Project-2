@@ -483,3 +483,9 @@
     padding: 3px 5px;
     display: inline;
 }
+.Portfolio .main-portfolio .top-portfolio h1{
+    font-size: 30px;
+}
+.Portfolio .main-portfolio .menu{
+    display: flex;
+}
