@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.main-nav{
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    font-family: Rowdies;
+    text-align: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 4px #b5b8bb;
+}
+.main-nav > div{
+    flex: 1;
+    color: #252B33;
+}
+.main-nav .logo{
+    flex: 1;
+    padding: 25px;
+    font-size:xx-large;
+}
+.main-nav .list{
+    flex: 3;
+    padding: 35px;
+    
+}
+.main-nav .icon{
+    flex: 1;
+    padding: 30px;
+}
+.main-nav .list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav .list ul li{
+    flex: 1;
+}
+.main-nav .list ul li a{
+    color: #252B33;
+}
+/*    Nav complete    */
+/*     First slide start  */
+.full-wrapper{
+    width: 100%;
+    height: 690px;
+    background-color:#00FFFF;
+    box-sizing: border-box;
+    padding: 160px;
+    font-family: Open Sans;
+    display: flex;
+}
+.full-wrapper .left-wrapper{
+    flex: 1;
+    padding: 60px;
+    color: #252B33;
+}
+.full-wrapper .left-wrapper h3{
+    font-family: open Sans;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.full-wrapper .left-wrapper h1{
+    font-size: 90px;
+    margin-bottom: 15px;
+}
+.full-wrapper .left-wrapper h4{
+    margin-bottom: 50px;
+}
+.full-wrapper .left-wrapper .bottom{
+    display: flex;
+}
+.full-wrapper .left-wrapper .bottom-left{
+    padding: 15px 50px;
+    color: white;
+    background-color: #1C1F23;
+}
+.full-wrapper .left-wrapper .bottom-left:hover{
+    cursor: pointer;
+}
+.full-wrapper .left-wrapper .bottom-right{
+    padding: 15px 50px;
+    opacity: 1;
+}
+.full-wrapper .left-wrapper .bottom-right:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.2s linear;
+}
+.full-wrapper .left-wrapper .bottom-right a{
+    text-decoration:underline;
+    color: #1C1F23;
+}
+.full-wrapper .left-wrapper .bottom-right a:hover{
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+/*   pic part   */
+
+.full-wrapper .right-wrapper{
+    flex: 1;
+    
+}
+.full-wrapper .right-wrapper .image img{
+    border: 15px solid white;
+    border-radius: 50%;
+}
+/*    About Me    */
+
+.about-me{
+    width: 100%;
+    height: 660px;
+    box-sizing: border-box;
+    padding: 110px;
+    font-family: Rowdies;
+    color: #252B33;
+}
+.about-me .main-part{
+    width: 100%;
+}
+.about-me .main-part .top{
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+    padding: 5px;
+}
+.about-me .main-part .top p{
+    background-color: #00FFFF;
+    display: inline;
+}
+.about-me .main-part .top h1{
+    font-size: 40px;   
+}
+.about-me .main-part .mid-part{
+    width: 100%;
+    margin-top: 50px;
+    font-family: open Sans;
+    display: flex;
+}
+.about-me .main-part .mid-part .left-mid{
+    flex: 2;
+    text-align: justify;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+.about-me .main-part .mid-part .left-mid strong{
+    text-decoration: 2px solid #00FFFF underline;
+    
+}
+.about-me .main-part .mid-part .left-mid 
+.head{
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.about-me .main-part .mid-part .left-mid 
+.head-body{
+    font-size: 20px;
+}
+/* Left mid part end 
+    Right mid part start    */
+
+.about-me .main-part .mid-part .right-mid{
+    flex: 1;
+    margin-left: 190px;
+}
+.about-me .main-part .mid-part .right-mid 
+.top{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #00FFFF;
+    font-size: 160px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.about-me .main-part .mid-part .right-mid h3{
+    font-size: 24px;
+}
+.about-me .main-part .mid-part .right-mid h3 strong{
+    font-size: 28px;
+}
+/*     mid part end  */
+/*     bottom of mid part   */
+.about-me .main-part .mid-bottom{
+    margin-top: 40px;
+    display: flex;
+}
+.about-me .main-part .mid-bottom div{
+    flex: 1;
+}
+.about-me .main-part .mid-bottom div p{
+    color: #9ca7b6;
+    margin-bottom: 10px;
+}
+.about-me .main-part .mid-bottom div.email a{
+    color: #1C1F23;
+    text-decoration: underline;
+}
+/* About Me end */
+/* What I do */
+.what-i-do{
+    width: 100%;
+    height: 850px;
+    box-sizing: border-box;
+    padding: 110px;
+    color: #252B33;
+    background: #F8F9FA;
+}
+.what-i-do .main-part {
+    width: 100%;
+    box-sizing: border-box;
+}
+.what-i-do .main-part .top{
+    text-align: center;
+    font-family: Rowdies;
+    margin-bottom: 50px;
+}
+.what-i-do .main-part .top p{
+    background-color: #00FFFF;
+    display: inline;
+}
+.what-i-do .main-part .top h1{
+    font-size: 40px;
+}
+.what-i-do .main-part .mid{
+    width: 100%;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-wrap: wrap;
+}
+.what-i-do .main-part .mid div{
+    letter-spacing: 1px;
+    width: 340px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+}
+.what-i-do .main-part .mid div h1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: Rowdies;
+}
+.what-i-do .main-part .mid div p{
+    font-family: Open Sans;
+    text-align: justify;
+    color: #252B33;
+}
+.what-i-do .main-part .mid div i{
+    color: #00FFFF;
+}
+/*        Resume part start    */
+
+
+.resume{
+    width: 100%;
+    height: 1000px;
+    padding: 115px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+.resume .main-resume{
+    width: 100%;
+    
+}
+.resume .main-resume .top-resume{
+    width: 100%;
+    font-family: Rowdies;
+    text-align: center;
+    color: #212529;
+    
+}
+.resume .main-resume .top-resume h3{
+    background-color: #00FFFF;
+    padding: 3px 5px;
+    display: inline;
+}
+.resume .main-resume .top-resume h1{
+    margin-top: 10px;
+    font-size: 40px;
+
+}
+.resume .main-resume .mid-resume{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    font-family: Open Sans;
+}
+.resume .main-resume .mid-resume .left-mid-resume{
+    margin-right: 20px;
+    flex: 1;
+}
+.resume .main-resume .mid-resume .left-mid-resume h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.resume .main-resume .mid-resume .left-mid-resume .border-box{
+    width: 100%;
+    height: 600px;
+    border-left: 3px solid #00FFFF;
+    box-sizing: border-box;
+    padding: 0px 20px;
+
+}
+.resume .main-resume .mid-resume .left-mid-resume .border-box .first{
+    border-bottom: 2px solid #c5cad1;
+    margin-bottom: 50px;
+    padding-right: 30px;
+
+}
+.resume .main-resume .mid-resume .left-mid-resume .border-box .first h3{
+    margin-bottom: 15px;
+}
+.resume .main-resume .mid-resume .left-mid-resume .border-box .first h5{
+    margin-bottom: 20px;
+}
+.resume .main-resume .mid-resume .left-mid-resume .border-box .first p{
+    color: #a5acb6;
+    margin-bottom: 40px;
+}
+.resume .main-resume .mid-resume .right-mid-resume{
+
+    flex: 1;
+}
+.resume .main-resume .mid-resume .right-mid-resume h1{
+    font-size: 30px;
+}
