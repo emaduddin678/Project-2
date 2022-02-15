@@ -464,7 +464,7 @@
 
 .Portfolio{
     width: 100%;
-    height: 1300px;
+    height: 1100px;
     background: #F8F9FA;
     padding: 115px;
     box-sizing: border-box;
@@ -487,5 +487,90 @@
     font-size: 30px;
 }
 .Portfolio .main-portfolio .menu{
+    margin-top: 20px;
     display: flex;
+    justify-content: center;
+    
+}
+.Portfolio .main-portfolio .item{
+    padding: 10px 20px;
+    margin: 10px;
+    /* background-color: #00FFFF; */
+    font-family: Open Sans;
+    font-weight: 600;
+}
+.Portfolio .main-portfolio .item:hover{
+    text-decoration: 2px solid #00FFFF underline;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.Portfolio .main-portfolio .project-pic{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Portfolio .main-portfolio .project-pic img{
+    width: 340px;
+    margin: 10px;
+    box-sizing: border-box;
+    flex: 1;
+}
+/* hire me  */
+.hire-me{
+    width: 100%;
+    height: 450px;
+    background-image: url(image/project-pic/project-5.jpg);
+    font-family: Open Sans;
+    
+    text-align: center;
+    align-items: center; 
+    
+}
+.hire-me h1{
+    padding-top: 150px; 
+    padding-bottom: 50px;
+}
+.hire-me h3{
+    background-color: #00FFFF;
+    padding: 8px 22px ;
+    display: inline;
+    opacity: 1;
+}
+.hire-me h3:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+/* Faq start  */
+
+.faq{
+    
+    width: 100%;
+    height: 700px ;
+    display: flex;
+    box-sizing: border-box;
+    padding: 100px;
+    font-family: Open Sans;
+}
+.faq .faq-left{
+    
+    flex: 1;
+}
+.faq .faq-left h3{
+    padding: 5px 10px;
+    background-color: #00FFFF;
+    display: inline;
+}
+.faq .faq-left h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.faq .faq-right{
+    
+    flex: 1;
+}
+.faq .faq-right img{
+    width: 90%;
+    height: auto;
 }
